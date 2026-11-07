@@ -1,0 +1,22 @@
+# ---------------------------------------------------------------------------
+# REAL credentials. Logins\*.txt are plain-text account files (Name|Email|
+# Password). The app creates the folder and a starter file on first run.
+# NEVER commit this folder. See docs/sample-login-format.txt for the format.
+# ---------------------------------------------------------------------------
+Logins/
+
+# Belt and braces: wherever they turn up, these are never publishable.
+**/Logins/
+**/Backups/
+**/idle-history.txt
+**/quota-log.txt
+*.bak
+*.tmp
+
+# Test sandbox + generated results (recreated by every run)
+tests/Logins/
+**/*-results.txt
+**/*-progress.txt
+
+# The documented sample IS meant to ship - it contains only fake data.
+!docs/sample-login-format.txt

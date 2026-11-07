@@ -1,0 +1,13 @@
+# AutoHotkey, PowerShell and docs are text; keep CRLF in the working tree on
+# Windows and normalise in the repo so diffs stay sane.
+* text=auto
+
+*.ahk text eol=crlf
+*.ps1 text eol=crlf
+*.md  text
+*.txt text
+*.ini text
+
+# Don't let GitHub count the single-file app as the whole language stat, and
+# mark it as the real source rather than vendored.
+*.ahk linguist-language=AutoHotkey

@@ -1,0 +1,11 @@
+; This is a sample login file showing the format Account Queue expects.
+; Copy a file like this into your Logins/ folder (with real data) to use it.
+; Lines starting with a semicolon, like this one, are comments and are skipped.
+;
+; Format: Name|Email|Password
+;     or: Name|Email|Password|Note      (Note is optional)
+
+Main|demo.main@example.com|correct-horse-battery-staple
+Alt1|demo.alt1@example.com|another-fake-password
+Alt2|demo.alt2@example.com|yet-another-fake-password|Reserved for weekend events
+Alt3|demo.alt3@example.com|password-number-four
